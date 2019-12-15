@@ -7,6 +7,8 @@ class CityScreen extends StatefulWidget {
 }
 
 class _CityScreenState extends State<CityScreen> {
+  String _city;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
